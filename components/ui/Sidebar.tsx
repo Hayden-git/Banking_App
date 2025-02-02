@@ -19,7 +19,7 @@ const Sidebar = ({ user }: SiderbarProps) => {
 					className="mb-12 cursor-pointer items-center gap-2 flex"
 				>
 					<Image
-						src="/icons/logo.svg"
+						src="/icons/building-bank.png"
 						width={34}
 						height={34}
 						alt="Brink App Logo"

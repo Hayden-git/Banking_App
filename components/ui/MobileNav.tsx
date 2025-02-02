@@ -35,7 +35,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
 						className="cursor-pointer items-center gap-1 px-4 flex"
 					>
 						<Image
-							src="/icons/logo.svg"
+							src="/icons/building-bank.png"
 							width={34}
 							height={34}
 							alt="Brink App Logo"

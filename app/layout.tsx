@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 	title: "Brink",
 	description: "Brink is a modern banking platform.",
 	icons: {
-		icon: "/icons/logo.svg",
+		icon: "/icons/building-bank.png",
 	},
 };
 

@@ -73,7 +73,7 @@ const AuthForm = ({ type }: { type: string }) => {
 					className="cursor-pointer items-center gap-1 flex"
 				>
 					<Image
-						src="/icons/logo.svg"
+						src="/icons/building-bank.png"
 						width={34}
 						height={34}
 						alt="Brink App Logo"
