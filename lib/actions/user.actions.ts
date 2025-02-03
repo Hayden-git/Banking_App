@@ -112,7 +112,7 @@ export const createLinkToken = async (user: User) => {
 	}
 };
 
-export const createBankAccount = async ({ userId, bankId, accountId, accessToken, fundingSourceUrl, sharableId }: createBankAccountProps) => {
+export const createBankAccount = async ({ userId, bankId, accountId, accessToken, fundingSourceUrl, shareableId }: createBankAccountProps) => {
 	try {
 		const { database } = await createAdminClient();
 
@@ -122,11 +122,13 @@ export const createBankAccount = async ({ userId, bankId, accountId, accessToken
 			accountId,
 			accessToken,
 			fundingSourceUrl,
-			sharableId,
+			shareableId,
 		});
 
 		return parseStringify(bankAccount);
-	} catch (error) {}
+	} catch (error) {
+		console.error("This shit broke fam", error);
+	}
 };
 
 export const exchangePublicToken = async ({ publicToken, user }: exchangePublicTokenProps) => {
@@ -166,14 +168,14 @@ export const exchangePublicToken = async ({ publicToken, user }: exchangePublicT
 		// If the funding source URL is not created, throw an error
 		if (!fundingSourceUrl) throw Error;
 
-		// Create a bank account using the user ID, item ID, account ID, access token, funding source URL, and sharable ID
+		// Create a bank account using the user ID, item ID, account ID, access token, funding source URL, and shareable ID
 		await createBankAccount({
 			userId: user.$id,
 			bankId: itemId,
 			accountId: accountData.account_id,
 			accessToken,
 			fundingSourceUrl,
-			sharableId: encryptId(accountData.account_id),
+			shareableId: encryptId(accountData.account_id),
 		});
 
 		// Revalidate the path to reflect the changes
