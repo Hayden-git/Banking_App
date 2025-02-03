@@ -1,6 +1,6 @@
 import React, { useCallback, useState, useEffect } from "react";
 
-import { Button } from "./button";
+import { Button } from "./ui/button";
 
 import { PlaidLinkOnSuccess, PlaidLinkOptions, usePlaidLink } from "react-plaid-link";
 
