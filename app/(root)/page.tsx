@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderBox from "@/components/HeaderBox";
-import TotalBalanceBox from "@/components/ui/TotalBalanceBox";
-import RightSidebar from "@/components/ui/RightSidebar";
+import TotalBalanceBox from "@/components/TotalBalanceBox";
+import RightSidebar from "@/components/RightSidebar";
 import { getLoggedInUser } from "@/lib/actions/user.actions";
 
 const Home = async () => {
