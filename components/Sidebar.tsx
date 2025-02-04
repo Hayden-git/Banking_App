@@ -16,17 +16,17 @@ const Sidebar = ({ user }: SiderbarProps) => {
 			<nav className="flex flex-col gap-4">
 				<Link
 					href="/"
-					className="mb-12 cursor-pointer items-center gap-2 flex"
+					className="mb-12 cursor-pointer items-center gap-2 flex max-xl:justify-center"
 				>
 					<Image
 						src="/icons/building-bank.png"
 						width={34}
 						height={34}
 						alt="Brink App Logo"
-						className="size-[24px] max-xl:size-14"
+						className="size-[30px] max-xl:size-10"
 					/>
 
-					<h1 className="sidebar-logo">Brink</h1>
+					<h1 className="sidebar-logo pt-1">Brink</h1>
 				</Link>
 				{sidebarLinks.map((item) => {
 					const isActive = pathname === item.route || pathname.startsWith(`${item.route}/`);
