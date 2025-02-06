@@ -85,9 +85,9 @@ const AuthForm = ({ type }: { type: string }) => {
 						src="/icons/building-bank.png"
 						width={34}
 						height={34}
-						alt="Brink App Logo"
+						alt="App Logo"
 					/>
-					<h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">Brink</h1>
+					{/* <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1"></h1> */}
 				</Link>
 
 				<div className="flex flex-col gap-1 md:gap-3">

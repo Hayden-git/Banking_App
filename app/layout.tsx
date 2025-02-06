@@ -23,8 +23,8 @@ const ibmPlexSerif = IBM_Plex_Serif({
 });
 
 export const metadata: Metadata = {
-	title: "Brink",
-	description: "Brink is a modern banking platform.",
+	title: "",
+	description: "Modern banking platform.",
 	icons: {
 		icon: "/icons/building-bank.png",
 	},

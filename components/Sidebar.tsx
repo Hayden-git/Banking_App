@@ -23,11 +23,11 @@ const Sidebar = ({ user }: SiderbarProps) => {
 						src="/icons/building-bank.png"
 						width={34}
 						height={34}
-						alt="Brink App Logo"
+						alt="App Logo"
 						className="size-[30px] max-xl:size-10"
 					/>
 
-					<h1 className="sidebar-logo pt-1">Brink</h1>
+					{/* <h1 className="sidebar-logo pt-1"></h1> */}
 				</Link>
 				{sidebarLinks.map((item) => {
 					const isActive = pathname === item.route || pathname.startsWith(`${item.route}/`);
