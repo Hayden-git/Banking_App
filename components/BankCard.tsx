@@ -2,12 +2,13 @@ import { formatAmount } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Copy from "./Copy";
 
 const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) => {
 	return (
 		<div className="flex flex-col">
 			<Link
-				href="/"
+				href={`/transaction-history/?id=${account.appwriteItemId}`}
 				className="bank-card"
 			>
 				<div className="bank-card_content">
@@ -25,7 +26,7 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
 						</div>
 
 						<p className="text-14 font-semibold tracking-[1.1px] text-white">
-							●●●● ●●●● ●●●● <span className="text-16">1234</span>
+							●●●● ●●●● ●●●● <span className="text-16">{account?.mask}</span>
 						</p>
 					</article>
 				</div>
@@ -56,7 +57,7 @@ const BankCard = ({ account, userName, showBalance = true }: CreditCardProps) =>
 				/>
 			</Link>
 
-			{/* TODO: ADD ABILITY TO COPY CARD NUMBERS */}
+			{showBalance && <Copy title={account?.shareableId} />}
 		</div>
 	);
 };
