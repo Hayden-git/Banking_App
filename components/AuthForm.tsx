@@ -68,7 +68,7 @@ const AuthForm = ({ type }: { type: string }) => {
 				if (response) router.push("/");
 			}
 		} catch (error) {
-			console.log(error);
+			console.log("Error on onSubmit() in AuthForm.tsx", error);
 		} finally {
 			setIsLoading(false);
 		}
