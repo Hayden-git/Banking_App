@@ -125,7 +125,13 @@ export const transactionCategoryStyles = {
 		borderColor: "border-[#12B76A]",
 		backgroundColor: "bg-[#12B76A]",
 		textColor: "text-[#027A48]",
-		chipBackgroundColor: "bg-[#ECFDF3]",
+		chipBackgroundColor: "bg-gradient-to-br from-emerald-50 to-emerald-100",
+	},
+	Travel: {
+		borderColor: "border-[#0047AB]",
+		backgroundColor: "bg-blue-500",
+		textColor: "text-blue-700",
+		chipBackgroundColor: "bg-gradient-to-br from-sky-50 to-indigo-100",
 	},
 	default: {
 		borderColor: "",
