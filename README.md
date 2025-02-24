@@ -87,12 +87,10 @@ Here are some screenshots of the app:
 
 <img width="1918" alt="image" src="https://github.com/user-attachments/assets/8f8f0a00-db76-41bb-b772-e8c9d6e49ddb" />
 <img width="359" alt="image" src="https://github.com/user-attachments/assets/78b3681c-fa42-4511-9adc-cafb2b412e78" />
-
+<img width="1909" alt="image" src="https://github.com/user-attachments/assets/25ce2e61-9300-4787-b361-b86160e9806e" />
 <img width="1912" alt="image" src="https://github.com/user-attachments/assets/cf17b5e7-08ec-4612-bf80-59809a9b2cf0" />
-
 <img width="620" alt="image" src="https://github.com/user-attachments/assets/1db3b08a-8a6d-4b0d-b621-1d3e29d9664a" />
 <img width="1062" alt="image" src="https://github.com/user-attachments/assets/69fdd029-f0e2-4396-b356-26ccc2f58e71" />
-
 <img width="440" alt="image" src="https://github.com/user-attachments/assets/72c7e40f-e17e-4aaa-a783-ebb336f4d1fd" />
 
 
