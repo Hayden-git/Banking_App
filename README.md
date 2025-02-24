@@ -35,7 +35,7 @@ ATTENTION: When creating an account, the form asks for personal data like name, 
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/banking-app.git
+   git clone https://github.com/Hayden-git/Banking_App.git
    cd banking-app
    ```
 
