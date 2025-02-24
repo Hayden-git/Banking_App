@@ -2,13 +2,11 @@
 # 🏦 Banking App  
 # See the demo here: https://banking-app-mu-pink.vercel.app/
 
+**ATTENTION:** When creating an account, the form asks for personal data like name, address, date of Birth, and SSN just like any banking platform may... However, PLEASE do not use real personal information. This app is still using Plaid's sandbox API and DOES NOT have access to your real banking information. This is merely a proof of concept using sandboxed banking data from the Plaid API.
+
 <img width="1918" alt="image" src="https://github.com/user-attachments/assets/8f8f0a00-db76-41bb-b772-e8c9d6e49ddb" />
 
 A modern, secure, and mobile-responsive banking app built with **TypeScript, React, Next.js, and ShadCN**. This app allows users to **view transactions, add bank accounts, send funds, and authenticate payments** seamlessly using **Plaid API** and **Dwolla API**. The backend is powered by **Appwrite**, a real-time database and authentication platform.  
-
-
-
-**ATTENTION:** When creating an account, the form asks for personal data like name, address, date of Birth, and SSN just like any banking platform may... However, PLEASE do not use real personal information. This app is still using Plaid's sandbox API and DOES NOT have access to your real banking information. This is merely a proof of concept using sandboxed banking data from the Plaid API.
 
 - **When making an account:**
 - PLEASE make sure to type in the Date of Birth in "YYYY-DD-MM" format... (Ex: 1988-02-01)
