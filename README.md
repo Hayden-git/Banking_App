@@ -44,22 +44,15 @@ ATTENTION: When creating an account, the form asks for personal data like name, 
    npm install
    ```
 
-3. **Set up environment variables** (Create a `.env.local` file in the root directory)  
-   ```bash
-   NEXT_PUBLIC_APPWRITE_PROJECT_ID=your-appwrite-project-id
-   NEXT_PUBLIC_APPWRITE_ENDPOINT=your-appwrite-endpoint
-   NEXT_PUBLIC_PLAID_CLIENT_ID=your-plaid-client-id
-   NEXT_PUBLIC_PLAID_SECRET=your-plaid-secret
-   NEXT_PUBLIC_DWOLLA_KEY=your-dwolla-key
-   NEXT_PUBLIC_DWOLLA_SECRET=your-dwolla-secret
-   ```
+3. **Set up environment variables** (Create a `.env` file in the root directory)
+  - Find the .env.example file and fill in the blanks with your own env variables inside your .env file
 
-4. **Run the development server**  
+5. **Run the development server**  
    ```bash
    npm run dev
    ```
 
-5. **Open in browser**  
+6. **Open in browser**  
    Go to [http://localhost:3000](http://localhost:3000)  
 
 ## 🔐 Security  
