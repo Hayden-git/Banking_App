@@ -1,6 +1,8 @@
 
 # 🏦 Banking App  
 
+<img width="1918" alt="image" src="https://github.com/user-attachments/assets/8f8f0a00-db76-41bb-b772-e8c9d6e49ddb" />
+
 A modern, secure, and mobile-responsive banking app built with **TypeScript, React, Next.js, and ShadCN**. This app allows users to **view transactions, add bank accounts, send funds, and authenticate payments** seamlessly using **Plaid API** and **Dwolla API**. The backend is powered by **Appwrite**, a real-time database and authentication platform.  
 
 # See the demo here
@@ -52,7 +54,6 @@ https://banking-app-mu-pink.vercel.app/
 
 Here are some screenshots of the app:  
 
-<img width="1918" alt="image" src="https://github.com/user-attachments/assets/8f8f0a00-db76-41bb-b772-e8c9d6e49ddb" />
 <img width="359" alt="image" src="https://github.com/user-attachments/assets/78b3681c-fa42-4511-9adc-cafb2b412e78" />
 <img width="1909" alt="image" src="https://github.com/user-attachments/assets/25ce2e61-9300-4787-b361-b86160e9806e" />
 <img width="1912" alt="image" src="https://github.com/user-attachments/assets/cf17b5e7-08ec-4612-bf80-59809a9b2cf0" />
