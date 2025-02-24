@@ -3,6 +3,16 @@
 
 A modern, secure, and mobile-responsive banking app built with **TypeScript, React, Next.js, and ShadCN**. This app allows users to **view transactions, add bank accounts, send funds, and authenticate payments** seamlessly using **Plaid API** and **Dwolla API**. The backend is powered by **Appwrite**, a real-time database and authentication platform.  
 
+# See the demo here
+https://banking-app-mu-pink.vercel.app/
+
+ATTENTION: When creating an account, the form asks for personal data like name, address, date of Birth, and SSN just like any banking platform may... However, PLEASE do not use real personal information. This app is still using Plaid's sandbox API and DOES NOT have access to your real banking information. This is merely a proof of concept using sandboxed banking data from the Plaid API.
+
+- **When making an account:**
+- PLEASE make sure to type in the Date of Birth in "YYYY-DD-MM" format... (Ex: 1988-02-01)
+- Use any random or fake address and postal code you would like... (Ex: 123 Place St, New York City, NY 12345)
+- For the SSN, any set of random numbers will work... please do not use your real SSN... (Ex: 123 45 6789)
+
 ## 🚀 Features  
 
 ✅ **View Transactions** – Users can see their transaction history, including amounts, categories, and payment statuses.  
