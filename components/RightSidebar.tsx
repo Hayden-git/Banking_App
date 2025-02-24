@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import BankCard from "./BankCard";
 
-const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
+const RightSidebar = ({ user, banks }: RightSidebarProps) => {
 	return (
 		<aside className="right-sidebar">
 			<section className="flex flex-col pb-8">
@@ -39,7 +39,7 @@ const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
 							alt="Add Bank"
 						/>
 
-						<h2 className="text-14 font-semibold text-gray-600">Add Bank</h2>
+						{/* <h2 className="text-14 font-semibold text-gray-600">Add Bank</h2> */}
 					</Link>
 				</div>
 

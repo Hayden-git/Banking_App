@@ -10,6 +10,7 @@ import { z } from "zod";
 import { authFormSchema } from "@/lib/utils";
 
 // Make authFormSchema into a function that checks "type" so that it allows the validation to submit on "sign-in" ... all "sign-up" inputs are optional if we are on "sign-in" page
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const formSchema = authFormSchema("sign-up");
 
 interface CustomInput {

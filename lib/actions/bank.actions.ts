@@ -145,6 +145,7 @@ export const getInstitution = async ({ institutionId }: getInstitutionProps) => 
 // Get transactions
 export const getTransactions = async ({ accessToken }: getTransactionsProps) => {
 	let hasMore = true;
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	let transactions: any[] = []; // Initialize an empty array to accumulate transactions
 	let cursor: string | undefined = undefined; // Use a cursor to paginate through transactions
 
@@ -193,13 +194,5 @@ export const getTransactions = async ({ accessToken }: getTransactionsProps) => 
 		return parseStringify(transactions); // Return the accumulated transactions
 	} catch (error) {
 		console.error("Error on getTransactions() in bank.actions:", error);
-		// return parseStringify([]); // Return an empty array in case of error
-
-		// if (error.response) {
-		// 	console.error("Plaid API Error:", JSON.stringify(error.response.data, null, 2));
-		// } else {
-		// 	console.error("Unexpected Error in getTransactions():", error);
-		// }
-		// return parseStringify([]);
 	}
 };
