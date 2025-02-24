@@ -6,7 +6,7 @@ A modern, secure, and mobile-responsive banking app built with **TypeScript, Rea
 # See the demo here
 https://banking-app-mu-pink.vercel.app/
 
-ATTENTION: When creating an account, the form asks for personal data like name, address, date of Birth, and SSN just like any banking platform may... However, PLEASE do not use real personal information. This app is still using Plaid's sandbox API and DOES NOT have access to your real banking information. This is merely a proof of concept using sandboxed banking data from the Plaid API.
+**ATTENTION:** When creating an account, the form asks for personal data like name, address, date of Birth, and SSN just like any banking platform may... However, PLEASE do not use real personal information. This app is still using Plaid's sandbox API and DOES NOT have access to your real banking information. This is merely a proof of concept using sandboxed banking data from the Plaid API.
 
 - **When making an account:**
 - PLEASE make sure to type in the Date of Birth in "YYYY-DD-MM" format... (Ex: 1988-02-01)
@@ -22,38 +22,12 @@ ATTENTION: When creating an account, the form asks for personal data like name, 
 ✅ **Copy Transaction IDs** – Easily copy and share transaction identifiers.  
 ✅ **Mobile Responsive** – Fully optimized for mobile and desktop usage.  
 
-
-
 ## 🛠️ Tech Stack  
 
 - **Frontend**: React, Next.js, TypeScript, ShadCN (for UI components)  
 - **Backend**: Appwrite (real-time database and authentication)  
 - **APIs**: Plaid API, Dwolla API (for payment processing and authentication)  
 - **Styling**: TailwindCSS  
-
-## 📦 Installation  
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/Hayden-git/Banking_App.git
-   cd banking-app
-   ```
-
-2. **Install dependencies**  
-   ```bash
-   npm install
-   ```
-
-3. **Set up environment variables** (Create a `.env` file in the root directory)
-  - Find the .env.example file and fill in the blanks with your own env variables inside your .env file
-
-5. **Run the development server**  
-   ```bash
-   npm run dev
-   ```
-
-6. **Open in browser**  
-   Go to [http://localhost:3000](http://localhost:3000)  
 
 ## 🔐 Security  
 
